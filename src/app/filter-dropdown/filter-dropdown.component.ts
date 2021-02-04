@@ -10,7 +10,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
             <div class="dropdown">
               <button class="btn btn-primary">Dropdown</button>
               <div class="dropdown-content">
-                <a *ngFor="let family of animalFamilies | async" (click)="familySelected.emit(family)">{{family | json}}</a>
+                <a *ngFor="let family of animalFamilies" (click)="familySelected.emit(family)">{{family}}</a>
               </div>
             </div>
         </div>

@@ -20,6 +20,8 @@ export class AnimalsService {
 
   }
 
+
+
 }
 // .pipe((map((res: Animal[]) => res)));
 //   }

@@ -19,8 +19,8 @@
     <div class="col-2"></div>
     <div class="col-8">
       <filter-dropdown
-      #pcompoenet
-      [animalFamilies] = "pcompoenet.value"
+
+      [animalFamilies] = "animalFamilies"
        (familySelected)="filterAnimalsPerFamily($event)"></filter-dropdown>
     </div>
     <div class="col-2"></div>
@@ -32,7 +32,7 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-3 mr-2 mb-2" *ngFor="let animal of filteredAnimals">
-      <app-card (name)="animal.name" [title]="animal.family" {{text}}="animal.description" [image]="'./assets/' + animal.name +'.jpg'"></app-card>
+      <app-card [name]="animal.name" [title]="animal.family" [text]="animal.description" [image]="'./assets/' + animal.name +'.jpg'"></app-card>
     </div>
   </div>
 </div>
