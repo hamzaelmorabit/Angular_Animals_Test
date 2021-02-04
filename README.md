@@ -3,8 +3,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
 ## Development server
-Run `npm uninstall @angular-devkit/build-angular  npm install @angular-devkit/build-angular@0.13.0`
-Run `npm uninstall @angular-devkit/build-angular  npm install @angular-devkit/build-angular@0.13.0`
+Run `npm uninstall @angular-devkit/build-angular` <br />
+Run `npm install @angular-devkit/build-angular@0.13.0` <br />
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
