@@ -38,7 +38,7 @@ export class AppComponent implements OnInit {
       this.animalFamilies = this.animals.map(animal => animal.family)
         .filter(((value, index, array) => array.indexOf(value) === index));
 
-      this.animals.forEach((e) => { console.log(e); this.animalFamilies.push(e.family) })
+      // this.animals.forEach((e) => { console.log(e); this.animalFamilies.push(e.family) })
     });
     // console.log(this.animalFamilies, 'animalFamilies')
   }
